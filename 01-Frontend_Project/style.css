@@ -1,0 +1,35 @@
+body {
+    color:orange;
+    background-color: #730099;
+}
+
+#topnav {
+    list-style-type: none;
+    overflow: hidden;
+    color:green;
+    border-style: solid;padding:2px 4px;
+}
+
+#topnav a {
+    /* float: left; */
+    color:darkorange;
+    border-style: solid;padding:2px 4px;
+    background-color: mediumpurple;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#topnav a:hover {
+    color:lightsteelblue
+}
+
+#topnav li {
+    display: inline;
+    padding-right: 30px;
+}
+
+#topnav li .active {
+    background-color: crimson;
+}
